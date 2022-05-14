@@ -10,6 +10,7 @@ public class conn
     public static void main (String[] args)
     {
         try {
+            //test
             Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/memory_game", "root", "1234");
 
             Statement statement = connection.createStatement();
