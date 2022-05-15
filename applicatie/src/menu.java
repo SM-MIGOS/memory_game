@@ -4,7 +4,7 @@ import conn.conn;
 import java.sql.Connection;
 import java.util.Scanner;
 
-// HIER HEB IK DE MENU CLASS GEMAAKT
+// HIER HEB IK DE MENU CLASS GEMAAKT - SURAJ MEGHOE
 public class menu {
 
     // HIER HEB IK EEN METHOD GEMAAKT DIE DE MENU WEERGEEFT VAN HET SPEL - SURAJ MEGHOE
@@ -28,7 +28,7 @@ public class menu {
         }
     }
 
-    // HIER HEB IK EEN METHOD WAAR DE USER ZIJN KEUZE MAAKT
+    // HIER HEB IK EEN METHOD WAAR DE USER ZIJN KEUZE MAAKT - SURAJ MEGHOE
     public static int UserMenu() {
         Scanner scan = new Scanner(System.in);
         int keuze = -1;

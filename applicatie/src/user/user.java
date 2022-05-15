@@ -84,7 +84,7 @@ public class user {
         return new String[]{user_usernaam1, user_password1};
     }
 
-    // DIT IS DE LOGIN METHOD
+    // DIT IS DE LOGIN METHOD - SURAJ MEGHOE
     public static void login(String[] stud) throws Exception {
         java.sql.Connection con = conn.getConnection();
         String sql = "select * from users where user_usernaam=?and user_password=?";
@@ -93,7 +93,7 @@ public class user {
         stmt.setString(2, stud[1]);
         ResultSet result = stmt.executeQuery();
 
-        // HIER IS ER EEN IF ELSE STATEMENT OM AAN TE GEVEN OF DE LOGIN SUCCESVOL OF NIET IS
+        // HIER IS ER EEN IF ELSE STATEMENT OM AAN TE GEVEN OF DE LOGIN SUCCESVOL OF NIET IS - SURAJ MEGHOE
         if (result.next()) {
             System.out.println("\nlogin succesvol\n");
         } else {
