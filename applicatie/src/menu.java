@@ -9,7 +9,7 @@ public class menu {
 
     // HIER HEB IK EEN METHOD GEMAAKT DIE DE MENU WEERGEEFT VAN HET SPEL - SURAJ MEGHOE
     public static void Menu() {
-        System.out.println("Welkom bij Memory Game");
+        System.out.println("\nWelkom bij Memory Game");
         System.out.println("Maak een selectie om verder te kunnen gaan");
         System.out.println("1. Registratie");
         System.out.println("2. Inloggen");

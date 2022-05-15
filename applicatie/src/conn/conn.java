@@ -23,7 +23,7 @@ public class conn {
         return null;
     }
 
-    // HIER HEB IK METHOD GEMAAKT VOOR HET SLUITEN VAN DE CONNECTIE MET DE DATABASE
+    // HIER HEB IK METHOD GEMAAKT VOOR HET SLUITEN VAN DE CONNECTIE MET DE DATABASE - SURAJ MEGHOE
     public static void CloseDatabaseConnection(Connection conn) throws Exception {
         conn.close();
     }
