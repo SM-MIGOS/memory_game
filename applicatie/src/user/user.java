@@ -1,7 +1,7 @@
 package user;
 
 import conn.conn;
-
+import login.login;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.text.ParseException;
@@ -67,38 +67,6 @@ public class user {
         System.out.printf("%s %s Successvol toegevoegd", user[2], user[3]);
     }
 
-    // DIT IS DE LOGIN VAN DE USER - SURAJ MEGHOE
-    // VARIABLE DECLARATIE - SURAJ MEGHOE
-    public static String user_usernaam1;
-    public static String user_password1;
 
-    //HIER HEB IK EEN METHOD GEMAAKT OM DE GEGEVENS VAN DE USER TE KRIJGEN  - SURAJ MEGHOE
-    public static String[] getloginInfo() {
-        Scanner input = new Scanner(System.in);
-        System.out.println("Voer uw UserName in:");
-        user_usernaam1 = input.nextLine();
-
-        System.out.println("Voer uw password in:");
-        user_password1 = input.nextLine();
-
-        return new String[]{user_usernaam1, user_password1};
-    }
-
-    // DIT IS DE LOGIN METHOD - SURAJ MEGHOE
-    public static void login(String[] stud) throws Exception {
-        java.sql.Connection con = conn.getConnection();
-        String sql = "select * from users where user_usernaam=?and user_password=?";
-        PreparedStatement stmt = con.prepareStatement(sql);
-        stmt.setString(1, stud[0]);
-        stmt.setString(2, stud[1]);
-        ResultSet result = stmt.executeQuery();
-
-        // HIER IS ER EEN IF ELSE STATEMENT OM AAN TE GEVEN OF DE LOGIN SUCCESVOL OF NIET IS - SURAJ MEGHOE
-        if (result.next()) {
-            System.out.println("\nlogin succesvol\n");
-        } else {
-            System.out.println("\nlogin is niet succesvol\n");
-        }
-    }
 
 }

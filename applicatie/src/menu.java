@@ -1,5 +1,6 @@
 import user.user;
 import conn.conn;
+import login.login;
 
 import java.sql.Connection;
 import java.util.Scanner;
@@ -60,9 +61,9 @@ public class menu {
                 }
                 break;
             case 2:
-                String[] stud = user.getloginInfo();
+                String[] stud = login.getloginInfo();
                 try {
-                    user.login(stud);
+                    login.login2(stud);
                 } catch (Exception e) {
                     throw new RuntimeException(e);
                 }
