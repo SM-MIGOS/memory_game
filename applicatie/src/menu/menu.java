@@ -1,6 +1,9 @@
+package menu;
+
 import user.user;
 import conn.conn;
 import login.login;
+import menu.menu;
 
 import java.sql.Connection;
 import java.util.Scanner;
