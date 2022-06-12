@@ -21,7 +21,6 @@ Dit is een applicatie die in de java terminal gespeeld kan worden.
 De applicatie is een memory game die de gebruiker de mogelijkheid geeft om 2 kaarten telkens te openen.
 Wanneer de gebruiker 10 keren een fout paar opent verliest hij het spel. Indien niet wint hij deze.
 
-[Back To The Top](#read-me-template)
 
 ---
 
@@ -52,7 +51,6 @@ Import uw database als volg:
 - Username: admin123
 - Password: 1234
 
-  [Back To The Top](#read-me-template)
 ---
 ## Gebruik gemaakt van
 Hier wordt aangegeven welke talen gebruik zijn gemaakt voor het maken van deze applicatie.
@@ -60,11 +58,11 @@ Hier wordt aangegeven welke talen gebruik zijn gemaakt voor het maken van deze a
 - JAVA
 - SQL
 
-  [Back To The Top](#read-me-template)
+  
 ---
 
 ## Auteur Info
-1e auteur - SURAJ MEGHOE   BI/1121/031
-2e auteur - SHIVAN ANGNOE  SE/1121/003
-3e auteur - SHANNAZ SABIRAN BI/1121/040
-[Back To The Top](#read-me-template)
+- 1e auteur - SURAJ MEGHOE   BI/1121/031
+- 2e auteur - SHIVAN ANGNOE  SE/1121/003
+- 3e auteur - SHANNAZ SABIRAN BI/1121/040
+
