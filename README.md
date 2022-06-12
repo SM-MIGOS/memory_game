@@ -10,8 +10,8 @@
 You're sections headers will be used to reference location of destination.
 
 - [Beschrijving](#Beschrijving)
-- [Hoe te gebruiken](#Hoe te gebruiken)
-- [Auteur Info](#Auteur Info)
+- [Hoe te gebruiken](#Hoe-te-gebruiken)
+- [Auteur Info](#Auteur-Info)
 
 ---
 
