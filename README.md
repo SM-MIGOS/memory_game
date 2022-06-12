@@ -11,7 +11,9 @@ You're sections headers will be used to reference location of destination.
 
 - [Beschrijving](#Beschrijving)
 - [Hoe te gebruiken](#Hoe-te-gebruiken)
+- [Gebruikt gemaakt van](#Gebruik-gemaakt-van)
 - [Auteur Info](#Auteur-Info)
+
 
 ---
 
@@ -19,10 +21,12 @@ You're sections headers will be used to reference location of destination.
 
 Dit is een applicatie die in de java terminal gespeeld kan worden. 
 De applicatie is een memory game die de gebruiker de mogelijkheid geeft om 2 kaarten telkens te openen.
-Wanneer de gebruiker 10 keren een fout paar opent verliest hij het spel. Indien niet wint hij deze.
+Wanneer de gebruiker 10 keren een foutieve paar opent, verliest hij het spel. Indien niet wint hij deze.
 
+[Back To The Top](#MEMORY-GAME-GROEP-6)
 
 ---
+
 
 ## Hoe te gebruiken
 
@@ -36,7 +40,7 @@ Dit kunt u doen als volg:
 Deze applicatie maakt gebruik van een database.
 Import uw database als volg:
 - U gaat naar uw DB folder, deze heeft 2 subfolders.
-- Subfolder 1: IMPORT -> u gebruikt deze sql file indien u reschtreeks van uw dbms database import.
+- Subfolder 1: IMPORT -> u gebruikt deze sql file indien u rechtstreeks van uw dbms database import.
 - Subfolder 2: QUERY -> u gebruikt deze sql file wanneer u uw query van de database wilt runnen.
 
 
@@ -51,6 +55,8 @@ Import uw database als volg:
 - Username: admin123
 - Password: 1234
 
+[Back To The Top](#MEMORY-GAME-GROEP-6)
+
 ---
 ## Gebruik gemaakt van
 Hier wordt aangegeven welke talen gebruik zijn gemaakt voor het maken van deze applicatie.
@@ -58,7 +64,8 @@ Hier wordt aangegeven welke talen gebruik zijn gemaakt voor het maken van deze a
 - JAVA
 - SQL
 
-  
+[Back To The Top](#MEMORY-GAME-GROEP-6)
+
 ---
 
 ## Auteur Info
@@ -66,3 +73,6 @@ Hier wordt aangegeven welke talen gebruik zijn gemaakt voor het maken van deze a
 - 2e auteur - SHIVAN ANGNOE  SE/1121/003
 - 3e auteur - SHANNAZ SABIRAN BI/1121/040
 
+[Back To The Top](#MEMORY-GAME-GROEP-6)
+
+---
